@@ -1,0 +1,129 @@
+body{
+    background-color:rgb(18, 17, 17);
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
+}
+
+.logo{
+    font-size:40px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:20px;
+    display:flex;
+}
+
+.logo span{
+    color:orangered;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0d0d0d;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-left: auto; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.live{
+    width:300px;
+    margin:auto;
+    margin-top:25px;
+    padding:10px;
+    border:1px solid green;
+    border-radius:20px;
+    color:orange;
+}
+
+.hero{
+    margin-top:50px;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero span{
+    color:orange;
+}
+
+.hero p{
+    color:lightgray;
+    width:70%;
+    margin:auto;
+    margin-top:20px;
+    line-height:30px;
+}
+
+.btn{
+    background-color:orange;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:18px;
+    margin-top:25px;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.stats{
+    margin-top:50px;
+}
+
+.box{
+    display:inline-block;
+    width:200px;
+    margin:20px;
+}
+
+.box h2{
+    font-size:50px;
+}
+
+.box p{
+    color:gray;
+}
+
+.community{
+    border:1px solid palegreen;
+    border-radius:20px;
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+    padding:40px;
+}
+
+.community h2{
+    font-size:40px;
+}
+
+.community p{
+    color:lightgray;
+    margin-top:20px;
+}
+
+.whatsapp{
+    background-color:orange;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:18px;
+    margin-top:25px;
+}
